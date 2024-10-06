@@ -1,5 +1,7 @@
 .body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 .main-nav {
   background: #fff;
@@ -30,9 +32,13 @@
   color: #2e2f42;
 }
 .link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
 }
 .contact {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -40,7 +46,10 @@
   color: #434455;
 }
 .contact:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.contact:focus {
+  color: #404bbf;
 }
 .hero-title {
   font-weight: 700;
@@ -55,7 +64,6 @@
 }
 .hero-button {
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -67,7 +75,9 @@
 .hero-button:hover {
   background: #404bbf;
 }
-
+.hero-button:focus {
+  background-color: #404bbf;
+}
 .feature-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -86,12 +96,16 @@
   background: #f4f4fd;
 }
 .team-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+.team-member {
+  background-color: #ffffff;
 }
 .teammate-name {
   font-weight: 500;
@@ -112,6 +126,7 @@
 .portfolio {
 }
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
