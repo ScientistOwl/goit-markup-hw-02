@@ -3,6 +3,9 @@
   color: #434455;
   background-color: #ffffff;
 }
+.ull {
+  list-style: none;
+}
 .main-nav {
   background: #fff;
 }
@@ -142,6 +145,7 @@
 }
 .portfolio-list {
   background: #fff;
+  list-style: none;
 }
 .portfolio-card {
   background: url("path_to_image");
